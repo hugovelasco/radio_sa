@@ -9,3 +9,5 @@ Anyway, you can take a look at this project on the link below and try to remembe
 [Radio S.A](https://hugovelasco.github.io/radio_sa/)
 
 ## Have Fun!!!
+
+*PS: It's not working properly yet **#wip***
