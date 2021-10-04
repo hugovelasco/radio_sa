@@ -1,0 +1,106 @@
+body{
+    background-image: linear-gradient( 90deg,  rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% );
+    color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    /* align-items: center; */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#headphone{
+    font-size: 300px;
+}
+
+#square{
+    border: 5px double black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+    /* text-align: center; */
+}
+span{
+    cursor: pointer;
+}
+
+#square span:hover{
+    color: black;
+}
+
+#circle{
+    border: 5px double black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    /* margin: auto; */
+}
+
+.styleBox{
+
+    position: fixed;
+    font-size: 1.5rem;
+    width: 25vw;
+    height: 100%;
+    border-radius: 5px;
+    border: 5px double black;
+    background:rgba(0, 0, 0, 0.5);
+
+}
+
+h3{
+    text-decoration: underline;
+    margin: 10px;
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+    margin: 15px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stations ul li:hover{
+    color: black;
+}
+
+#sublist li{
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+#sublist li:hover{
+
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+#info{
+
+    right: 0;
+    top: 0;
+    overflow: auto;
+
+}
+
+#stations{
+
+    left: 0;
+    overflow: auto;
+
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="assets/img/5f42d6-1024x1024bb.ico">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <title>San Andreas Radio Stations</title>
+</head>
+
+<body>
+    <!-- <h1>Titulo</h1> -->
+        <div id="circle">
+            <span id="headphone" class="material-icons-round">headphones</span>
+        </div>
+            <!-- <audio id="audio" autoplay>
+                <source src="assets/audio/K-Rose_GTA_SA.ogg" type="audio/ogg">
+            </audio> -->
+        <div id="square">
+            <span class="material-icons-round" onclick="play()">play_circle_filled</span>
+            <span class="material-icons-round" onclick="pause()">pause</span>
+            <span class="material-icons-round" onclick="skip_previous()">skip_previous</span>
+            <span class="material-icons-round" onclick="skip_next()">skip_next</span>
+            <span class="material-icons-round" onclick="stop()">stop_circle</span>
+            <span class="material-icons-round" onclick="volume_up()">volume_up</span>
+            <span class="material-icons-round" onclick="volume_down()">volume_down</span>
+            <span class="material-icons-round" onclick="mute()">volume_mute</span>
+        </div>
+
+        <div class="styleBox" id="stations">
+            <h3>Radio:</h3>
+            <ul>
+                <li>Playback FM</li>
+                <li>K-Rose</li>
+                <li>K-DST</li>
+                <li>Bounce FM</li>
+                <li>SF-UR</li>
+                <li>Radio Los Santos</li>
+                <li>Radio X</li>
+                <li>CSR 103.9</li>
+                <li>K-JAH WEST</li>
+                <li>Master Sounds 98.3</li>
+            </ul>
+        </div>
+        
+        <div class="styleBox" id="info">
+            <h3>Info:</h3>
+            <ul>
+                <li>Radio Station:</li>
+                <li>Broadcaster:</li>
+                <li>Music Style:</li>
+                <li>Songs:
+                    <ul id="sublist">
+                        <li>bmwx6</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
