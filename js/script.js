@@ -54,7 +54,7 @@ const radioProperty = [
         station: "Radio X",
         broadcaster: "Sage",
         style: "alternative rock, heavy metal and grunge",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/RadioX_GTA_SA.ogg",
         songs: ""
     },
 
@@ -62,7 +62,7 @@ const radioProperty = [
         station: "Contemporary Soul Radio 103.9 (CSR)",
         broadcaster: 'Phillip "PM"',
         style: "new jack swing, contemporary soul, pop and boy band music",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/CSR-103.9_GTA_SA.ogg",
         songs: ""
     },
 
@@ -70,7 +70,7 @@ const radioProperty = [
         station: "K-JAH",
         broadcaster: "Marshall Peters & Johnny Lawton",
         style: "reggae, dub and dancehall music",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/K-JAHWEST_GTA_SA.ogg",
         songs: ""
     },
 
@@ -78,7 +78,7 @@ const radioProperty = [
         station: "Master Sounds 98.3",
         broadcaster: 'Johnny "The Love Giant" Parkinson',
         style: "rare groove, classic funk and classic soul",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/MasterSounds98.3_GTA_SA.ogg",
         songs: ""
     }
 ];
