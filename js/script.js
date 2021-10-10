@@ -30,7 +30,7 @@ const radioProperty = [
         station: "Bounce FM",
         broadcaster: "The Funktipus",
         style: "funk, disco, soul and R&B",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/BounceFM_GTA_SA.ogg",
         songs: ""
     },
 
@@ -38,7 +38,7 @@ const radioProperty = [
         station: "San Fierro Underground Radio (SF-UR)",
         broadcaster: "Hans Oberlander",
         style: "house music",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/SFUR_GTA_SA.ogg",
         songs: ""
     },
 
@@ -46,7 +46,7 @@ const radioProperty = [
         station: "Radio Los Santos",
         broadcaster: "Julio G.",
         style: "contemporary west-coast hip hop and gangsta rap",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/RadioLosSantos_GTA_SA.ogg",
         songs: ""
     },
 
