@@ -6,7 +6,7 @@ const radioProperty = [
         station: "Playback FM",
         broadcaster: "Forth Right MC",
         style: "Cassic East-coast Hip Hop",
-        src: "assets/audio/K-Rose_GTA_SA.ogg",
+        src: "assets/audio/PlaybackFM_GTA_SA.ogg",
         // songs: "Kool G Rap & DJ Polo - Road to the Riches (1989)Big Daddy Kane - Warm It Up, Kane (1989)Spoonie Gee - "The Godfather" (1987)Masta Ace - "Me and the Biz" (1990)Slick Rick - "Children's Story" (1988)Public Enemy - "Rebel Without a Pause" (1987)Eric B. & Rakim - "I Know You Got Soul" (1987)Rob Base and DJ E-Z Rock - "It Takes Two" (1988)Gang Starr - "B.Y.S." (1992)Biz Markie - "The Vapors" (1988)Brand Nubian - "Brand Nubian" (1989)Ultramagnetic MCs - "Critical Beatdown" (1988)"
     },
 
