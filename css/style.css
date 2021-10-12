@@ -77,17 +77,18 @@ ul li{
     color: black;
 }
 
-#sublist li{
-    list-style-type: disc;
+#songList li{
+    list-style-type: circle;
     margin-left: 40px;
 }
 
-/* #sublist li:hover{
+#songList li:hover{
 
-    text-decoration: underline;
-    text-transform: uppercase;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    color: black;
 
-} */
+}
 
 #info{
 
@@ -104,3 +105,12 @@ ul li{
 
 }
 
+.infoSubList{
+    text-transform: capitalize;
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.infoSubList:hover{
+    text-decoration: underline;
+}
