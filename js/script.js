@@ -48,21 +48,21 @@ const radioProperty = [
         style: "contemporary west-coast hip hop and gangsta rap",
         src: "assets/audio/RadioLosSantos_GTA_SA.ogg",
         songs: "<li>2Pac (feat. Pogo) -  I Don't Give a Fuck  (1991) </li>"
-        +"<li>Compton's Most Wanted -  Hood Took Me Under  (1992)</li>"
-        +"<li>Dr.Dre (feat. Snoop Dogg) -  Nuthin' But A 'G' Thang  (1992)</li>"
-        +"<li>Too $hort -  The Ghetto  (1990)</li>"
-        +"<li>N.W.A. -  Alwayz into Somethin'  (1991)</li>"
-        +"<li>Ice Cube (feat. Das EFX) -  Check Yo Self (The Message Remix)  (1992)</li>"
-        +"<li>Kid Frost -  La Raza  (1990)</li>"
-        +"<li>Cypress Hill -  How I Could Just Kill a Man  (1991)</li>"
-        +"<li>Dr. Dre (feat. Snoop Dogg & RBX) -  Fuck wit Dre Day  (1992)</li>"
-        +"<li>The D.O.C. -  It's Funky Enough  (1989)</li>"
-        +"<li>N.W.A. -  Express Yourself  (1988)</li>"
-        +"<li>Ice Cube -  It Was a Good Day  (1992)</li>"
-        +"<li>Eazy-E -  Eazy-Er Said Than Dunn  (1988)</li>"
-        +"<li>Above the Law -  Murder Rap  (1990)</li>"
-        +"<li>Dr. Dre (feat. Snoop Dogg) -  Deep Cover  (1992)</li>"
-        +"<li>Da Lench Mob (feat. Ice Cube) -  Guerillas in tha Mist  (1992)</li>"
+            + "<li>Compton's Most Wanted -  Hood Took Me Under  (1992)</li>"
+            + "<li>Dr.Dre (feat. Snoop Dogg) -  Nuthin' But A 'G' Thang  (1992)</li>"
+            + "<li>Too $hort -  The Ghetto  (1990)</li>"
+            + "<li>N.W.A. -  Alwayz into Somethin'  (1991)</li>"
+            + "<li>Ice Cube (feat. Das EFX) -  Check Yo Self (The Message Remix)  (1992)</li>"
+            + "<li>Kid Frost -  La Raza  (1990)</li>"
+            + "<li>Cypress Hill -  How I Could Just Kill a Man  (1991)</li>"
+            + "<li>Dr. Dre (feat. Snoop Dogg & RBX) -  Fuck wit Dre Day  (1992)</li>"
+            + "<li>The D.O.C. -  It's Funky Enough  (1989)</li>"
+            + "<li>N.W.A. -  Express Yourself  (1988)</li>"
+            + "<li>Ice Cube -  It Was a Good Day  (1992)</li>"
+            + "<li>Eazy-E -  Eazy-Er Said Than Dunn  (1988)</li>"
+            + "<li>Above the Law -  Murder Rap  (1990)</li>"
+            + "<li>Dr. Dre (feat. Snoop Dogg) -  Deep Cover  (1992)</li>"
+            + "<li>Da Lench Mob (feat. Ice Cube) -  Guerillas in tha Mist  (1992)</li>"
     },
 
     {
@@ -71,20 +71,20 @@ const radioProperty = [
         style: "alternative rock, heavy metal and grunge",
         src: "assets/audio/RadioX_GTA_SA.ogg",
         songs: "<li>Helmet -  Unsung  (1991)</li>"
-        +"<li>Depeche Mode -  Personal Jesus  (1989)</li>"
-        +"<li>Faith No More -  Midlife Crisis  (1992)</li>"
-        +"<li>Danzig -  Mother  (1988)</li>"
-        +"<li>Living Colour -  Cult of Personality  (1988)</li>"
-        +"<li>Primal Scream -  Movin' on Up  (1991)</li>"
-        +"<li>Guns N' Roses -  Welcome to the Jungle  (1987)</li>"
-        +"<li>L7 -  Pretend We're Dead  (1992)</li>"
-        +"<li>Ozzy Osbourne -  Hellraiser  (1991)</li>"
-        +"<li>Soundgarden -  Rusty Cage  (1991)</li>"
-        +"<li>Rage Against the Machine -  Killing in the Name  (1992)</li>"
-        +"<li>Jane's Addiction -  Been Caught Stealing  (1990)</li>"
-        +"<li>The Stone Roses -  Fools Gold  (1989)</li>"
-        +"<li>Alice in Chains -  Them Bones  (1992)</li>"
-        +"<li>Stone Temple Pilots -  Plush  (1992)</li>"
+            + "<li>Depeche Mode -  Personal Jesus  (1989)</li>"
+            + "<li>Faith No More -  Midlife Crisis  (1992)</li>"
+            + "<li>Danzig -  Mother  (1988)</li>"
+            + "<li>Living Colour -  Cult of Personality  (1988)</li>"
+            + "<li>Primal Scream -  Movin' on Up  (1991)</li>"
+            + "<li>Guns N' Roses -  Welcome to the Jungle  (1987)</li>"
+            + "<li>L7 -  Pretend We're Dead  (1992)</li>"
+            + "<li>Ozzy Osbourne -  Hellraiser  (1991)</li>"
+            + "<li>Soundgarden -  Rusty Cage  (1991)</li>"
+            + "<li>Rage Against the Machine -  Killing in the Name  (1992)</li>"
+            + "<li>Jane's Addiction -  Been Caught Stealing  (1990)</li>"
+            + "<li>The Stone Roses -  Fools Gold  (1989)</li>"
+            + "<li>Alice in Chains -  Them Bones  (1992)</li>"
+            + "<li>Stone Temple Pilots -  Plush  (1992)</li>"
     },
 
     {
@@ -93,18 +93,18 @@ const radioProperty = [
         style: "new jack swing, contemporary soul, pop and boy band music",
         src: "assets/audio/CSR-103.9_GTA_SA.ogg",
         songs: "<li>SWV -  I'm So Into You  (1992)</li>"
-        +"<li>Soul II Soul -  Keep On Movin'  (1989)</li>"
-        +"<li>Samuelle -  So You Like What You See  (1990)</li>"
-        +"<li>Johnny Gill -  Rub You the Right Way  (1990)</li>"
-        +"<li>Ralph Tresvant -  Sensitivity  (1990)</li>"
-        +"<li>Guy -  Groove Me  (1988)</li>"
-        +"<li>Aaron Hall -  Don't Be Afraid  (1992)</li>"
-        +"<li>Boyz II Men -  Motownphilly  (1991)</li>"
-        +"<li>Bell Biv DeVoe - Poison  (1990)</li>"
-        +"<li>Today -  I Got the Feeling  (1990)</li>"
-        +"<li>Wreckx-n-Effect -  New Jack Swing  (1988)</li>"
-        +"<li>Bobby Brown -  Don't Be Cruel  (1988)</li>"
-        +"<li>En Vogue -  My Lovin' (You're Never Gonna Get It)  (1992)</li>"
+            + "<li>Soul II Soul -  Keep On Movin'  (1989)</li>"
+            + "<li>Samuelle -  So You Like What You See  (1990)</li>"
+            + "<li>Johnny Gill -  Rub You the Right Way  (1990)</li>"
+            + "<li>Ralph Tresvant -  Sensitivity  (1990)</li>"
+            + "<li>Guy -  Groove Me  (1988)</li>"
+            + "<li>Aaron Hall -  Don't Be Afraid  (1992)</li>"
+            + "<li>Boyz II Men -  Motownphilly  (1991)</li>"
+            + "<li>Bell Biv DeVoe - Poison  (1990)</li>"
+            + "<li>Today -  I Got the Feeling  (1990)</li>"
+            + "<li>Wreckx-n-Effect -  New Jack Swing  (1988)</li>"
+            + "<li>Bobby Brown -  Don't Be Cruel  (1988)</li>"
+            + "<li>En Vogue -  My Lovin' (You're Never Gonna Get It)  (1992)</li>"
     },
 
     {
@@ -113,21 +113,21 @@ const radioProperty = [
         style: "reggae, dub and dancehall music",
         src: "assets/audio/K-JAHWEST_GTA_SA.ogg",
         songs: "<li>Black Harmony -  Don't Let It Go to Your Head  (1979) </li>"
-        +"<li>Blood Sisters -  Ring My Bell  (1979) </li>"
-        +"<li>Shabba Ranks -  Wicked Inna Bed  (1990)</li>"
-        +"<li>Buju Banton -  Batty Rider  (1992)</li>"
-        +"<li>Augustus Pablo -  King Tubby Meets Rockers Uptown  (1975)</li>"
-        +"<li>Dennis Brown -  Revolution  (1983)</li>"
-        +"<li>Willi Williams -  Armagideon Time  (1979)</li>"
-        +"<li>I-Roy -  Sidewalk Killer  (1972)</li>"
-        +"<li>Toots & The Maytals -  Funky Kingston  (1973)</li>"
-        +"<li>Dillinger -  Cokane In My Brain  (1976)</li>"
-        +"<li>Toots & The Maytals -  Pressure Drop  (1969)</li>"
-        +"<li>Pliers -  Bam Bam  (1992)</li>"
-        +"<li>Barrington Levy -  Here I Come  (1984)</li>"
-        +"<li>Reggie Stepper -  Drum Pan Sound  (1990)</li>"
-        +"<li>Black Uhuru -  Great Train Robbery  (1986)</li>"
-        +"<li>Max Romeo & The Upsetters -  Chase The Devil  (1976)</li>"
+            + "<li>Blood Sisters -  Ring My Bell  (1979) </li>"
+            + "<li>Shabba Ranks -  Wicked Inna Bed  (1990)</li>"
+            + "<li>Buju Banton -  Batty Rider  (1992)</li>"
+            + "<li>Augustus Pablo -  King Tubby Meets Rockers Uptown  (1975)</li>"
+            + "<li>Dennis Brown -  Revolution  (1983)</li>"
+            + "<li>Willi Williams -  Armagideon Time  (1979)</li>"
+            + "<li>I-Roy -  Sidewalk Killer  (1972)</li>"
+            + "<li>Toots & The Maytals -  Funky Kingston  (1973)</li>"
+            + "<li>Dillinger -  Cokane In My Brain  (1976)</li>"
+            + "<li>Toots & The Maytals -  Pressure Drop  (1969)</li>"
+            + "<li>Pliers -  Bam Bam  (1992)</li>"
+            + "<li>Barrington Levy -  Here I Come  (1984)</li>"
+            + "<li>Reggie Stepper -  Drum Pan Sound  (1990)</li>"
+            + "<li>Black Uhuru -  Great Train Robbery  (1986)</li>"
+            + "<li>Max Romeo & The Upsetters -  Chase The Devil  (1976)</li>"
     },
 
     {
@@ -136,71 +136,85 @@ const radioProperty = [
         style: "rare groove, classic funk and classic soul",
         src: "assets/audio/MasterSounds98.3_GTA_SA.ogg",
         songs: "<li>Maceo & The Macks - Cross the Tracks (We Better Go Back)</li>"
-        +"<li>Charles Wright - Express Yourself</li>"
-        +"<li>Bob James - Nautilus</li>"
-        +"<li>War - Low Rider</li>"
-        +"<li>Bobby Byrd - I Know You Got Soul</li>"
-        +"<li>The Blackbyrds - Rock Creek Park</li>"
-        +"<li>James Brown - Funky President</li>"
-        +"<li>The Chakachas - Jungle Fever</li>"
-        +"<li>The J.B.'s - The Grunt</li>"
-        +"<li>Booker T. & The M.G.’s - Green Onions</li>"
-        +"<li>James Brown - The Payback</li>"
-        +"<li>Sir Joe Quarterman & Free Soul - So Much Trouble in My Mind</li>"
-        +"<li>Lyn Collins - Rock Me Again & Again</li>"
-        +"<li>Gloria Jones - Tainted Love</li>"
-        +"<li> Lyn Collins - Think (About It)</li>"
-        +"<li>Bobby Byrd - Hot Pants</li>"
-        +"<li>Harlem Underground Band - Smokin' Cheeba Cheeba</li>"
-        +"<li>Maceo & The Macks - Soul Power '74</li>"
+            + "<li>Charles Wright - Express Yourself</li>"
+            + "<li>Bob James - Nautilus</li>"
+            + "<li>War - Low Rider</li>"
+            + "<li>Bobby Byrd - I Know You Got Soul</li>"
+            + "<li>The Blackbyrds - Rock Creek Park</li>"
+            + "<li>James Brown - Funky President</li>"
+            + "<li>The Chakachas - Jungle Fever</li>"
+            + "<li>The J.B.'s - The Grunt</li>"
+            + "<li>Booker T. & The M.G.’s - Green Onions</li>"
+            + "<li>James Brown - The Payback</li>"
+            + "<li>Sir Joe Quarterman & Free Soul - So Much Trouble in My Mind</li>"
+            + "<li>Lyn Collins - Rock Me Again & Again</li>"
+            + "<li>Gloria Jones - Tainted Love</li>"
+            + "<li> Lyn Collins - Think (About It)</li>"
+            + "<li>Bobby Byrd - Hot Pants</li>"
+            + "<li>Harlem Underground Band - Smokin' Cheeba Cheeba</li>"
+            + "<li>Maceo & The Macks - Soul Power '74</li>"
     }
 ];
+
+function getRadio(input) {
+    // radio.innerHTML = '<source src="' + radioProperty[input].src + '" type="audio/ogg"></source>';
+    radio.src = radioProperty[input].src;
+}
+
+function setRandomRadio() {
+
+    let randomStation = Math.floor(Math.random() * radioProperty.length);
+    getRadio(randomStation);
+    getInfo(randomStation);
+    play();
+
+}
+
+function getInfo(input) {
+
+    let infoSongs = radioProperty[input].songs;
+    let infoRS = radioProperty[input].station;
+    let infoBC = radioProperty[input].broadcaster;
+    let infoMS = radioProperty[input].style;
+
+    document.getElementById("songList").innerHTML = infoSongs;
+    document.getElementById("infoRS").innerHTML = infoRS;
+    document.getElementById("infoBC").innerHTML = infoBC;
+    document.getElementById("infoMS").innerHTML = infoMS;
+
+}
 
 // The event below load the radio stations list on the left side
 
 document.addEventListener("DOMContentLoaded", function () {
 
+    let radioStation;
+
 
     for (let i = 0; i < radioProperty.length; i++) {
         // This part below build the station list on the left side
-        let radioStation = '<li id="station' + i + '">' + radioProperty[i].station + '</li>';
+        radioStation = '<li id="station' + i + '">' + radioProperty[i].station + '</li>';
         document.getElementById("radioStationsList").innerHTML += radioStation;
     }
+    setRandomRadio();
+
 });
 
 // The event below turns the chosen radio on
-
+let idRadios;
 document.getElementById("radioStationsList").addEventListener("click", function (e) {
 
-    let idRadios = e.target.id;
-    let infoSongs = "";
-    let infoRS, infoBC, infoMS = "";
+    idRadios = e.target.id;
 
     for (let i = 0; i < radioProperty.length; i++) {
 
         if (document.getElementById("station" + i).id === idRadios) {
-            radio.innerHTML = '<source src="' + radioProperty[i].src + '" type="audio/ogg"></source>';
+            // radio.innerHTML = '<source src="' + radioProperty[i].src + '" type="audio/ogg"></source>';
+            getRadio(i);
             play();
-            // This part build build the info list on the right side
-            
-            infoSongs = radioProperty[i].songs;
-            infoRS = radioProperty[i].station;
-            infoBC = radioProperty[i].broadcaster;
-            infoMS = radioProperty[i].style;
+            // This part build the info list on the right side
 
-            // for (let index = 0; index < infoSongs.length; index++) {
-            //     if(infoSongs.includes("@") === true){
-            //             let count =+ 1;
-            //             let x = infoSongs.replaceAll("@","song"+count);
-            //             console.log(x);
-            //     }
-            // }
-
-            
-            document.getElementById("songList").innerHTML = infoSongs;
-            document.getElementById("infoRS").innerHTML = infoRS;
-            document.getElementById("infoBC").innerHTML = infoBC;
-            document.getElementById("infoMS").innerHTML = infoMS;
+            getInfo(i);
 
             break;
         } else {
@@ -208,24 +222,46 @@ document.getElementById("radioStationsList").addEventListener("click", function 
         }
     }
 
-    // This part build build the info list on the right side
-    // let infoRadioStation = '<li id="infoProperty' + i + '">Radio Station: </li>';
-    // let infoBroadcaster = '<li id="infoProperty' + i + '">Brocaster: </li>';
-    // let infoMusicStyle = '<li id="infoProperty' + i + '">Music Style: </li>';
-    // let infoSongs = '<li id="infoProperty' + i + '">Songs: <ul id="songList"><li id="song'+i+'"></ul></li>';
-
-    // document.getElementById("infoList").innerHTML += infoRadioStation + infoBroadcaster + infoMusicStyle + infoSongs;
-
 })
+
+function getNumberFromString(numb) {
+    return parseInt(numb.replace(/\D/g, ''));
+}
 
 // Control functions start here
 
 function skip_previous() {
-    // radio.playbackRate -= 0.1; 
+
+    let itens = document.getElementById("radioStationsList").nextSibling;
+    let currentAudio = radio.src;
+    
+    for (let i = 0; i < itens.length; i++) {
+        if(currentAudio  ){
+
+        }
+    }
+
 }
 
 function skip_next() {
-    // radio.playbackRate += 0.1; 
+    let currentID = getNumberFromString(idRadios);
+    let next =+ currentID + 1;
+    let stationX = document.getElementById("station" + next).id;
+    console.log(stationX);
+    console.log(idRadios);
+    if (stationX != idRadios) {
+        
+        getRadio(next);
+        getInfo(next);
+        radio.load();
+        play();
+        next++;
+
+    } else {
+
+    }
+
+
 }
 
 function play() {
