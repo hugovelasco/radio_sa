@@ -244,22 +244,27 @@ function skip_previous() {
 }
 
 function skip_next() {
-    let currentID = getNumberFromString(idRadios);
-    let next =+ currentID + 1;
-    let stationX = document.getElementById("station" + next).id;
-    console.log(stationX);
-    console.log(idRadios);
-    if (stationX != idRadios) {
-        
-        getRadio(next);
-        getInfo(next);
-        radio.load();
-        play();
-        next++;
-
-    } else {
-
-    }
+    // pego o elemento  
+    // let audio = document.getElementById("audio");  
+    // Corto tudo antes de assets, removendo caminhos do live-server por exemplo  
+    let src_atual = radio.src.substring(radio.src.indexOf("assets"), radio.src.length);  
+    let index_atual;  
+    // aqui eu verifico qual indice está a música atual baseado no src  
+    for (let i = 0; i < radioProperty.length; i++) {    
+        if (radioProperty[i].src === src_atual) {      
+            index_atual = i;    
+        }  
+    }  
+    // aqui eu adiciono o src do próximo indice apenas se não for o  
+    // ultimo indice  
+    if (index_atual < radioProperty.length - 1) {    
+        radio.src = radioProperty[index_atual + 1].src;  
+    } else {    
+    // quando for o ultimo index, a gente volta para o inicio da lista    
+    radio.src = radioProperty[0].src;  
+    }  
+    // depois de alterar o src eu dou play  
+    radio.play();
 
 
 }
