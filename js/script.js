@@ -188,12 +188,9 @@ function getInfo(input) {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    let radioStation;
-
-
     for (let i = 0; i < radioProperty.length; i++) {
         // This part below build the station list on the left side
-        radioStation = '<li id="station' + i + '">' + radioProperty[i].station + '</li>';
+        let radioStation = '<li id="station' + i + '">' + radioProperty[i].station + '</li>';
         document.getElementById("radioStationsList").innerHTML += radioStation;
     }
     setRandomRadio();
@@ -201,10 +198,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // The event below turns the chosen radio on
-let idRadios;
 document.getElementById("radioStationsList").addEventListener("click", function (e) {
 
-    idRadios = e.target.id;
+    let idRadios = e.target.id;
 
     for (let i = 0; i < radioProperty.length; i++) {
 
@@ -232,14 +228,28 @@ function getNumberFromString(numb) {
 
 function skip_previous() {
 
-    let itens = document.getElementById("radioStationsList").nextSibling;
-    let currentAudio = radio.src;
-    
-    for (let i = 0; i < itens.length; i++) {
-        if(currentAudio  ){
+    let src_atual = radio.src.substring(radio.src.indexOf("assets"), radio.src.length);
+    let index_atual;
 
+    for (let i = 0; i < radioProperty.length; i++) {
+        if (radioProperty[i].src === src_atual) {
+            index_atual = i;
         }
     }
+
+    if ((index_atual < radioProperty.length - 1) && (index_atual > 0)) {
+
+            radio.src = radioProperty[index_atual - 1].src;
+            getInfo(index_atual - 1);
+
+        } else {
+
+            radio.src = radioProperty[radioProperty.length - 1].src;
+            getInfo(radioProperty.length - 1);
+            
+        }
+
+    radio.play();
 
 }
 
@@ -247,23 +257,25 @@ function skip_next() {
     // pego o elemento  
     // let audio = document.getElementById("audio");  
     // Corto tudo antes de assets, removendo caminhos do live-server por exemplo  
-    let src_atual = radio.src.substring(radio.src.indexOf("assets"), radio.src.length);  
-    let index_atual;  
+    let src_atual = radio.src.substring(radio.src.indexOf("assets"), radio.src.length);
+    let index_atual;
     // aqui eu verifico qual indice está a música atual baseado no src  
-    for (let i = 0; i < radioProperty.length; i++) {    
-        if (radioProperty[i].src === src_atual) {      
-            index_atual = i;    
-        }  
-    }  
+    for (let i = 0; i < radioProperty.length; i++) {
+        if (radioProperty[i].src === src_atual) {
+            index_atual = i;
+        }
+    }
     // aqui eu adiciono o src do próximo indice apenas se não for o  
     // ultimo indice  
-    if (index_atual < radioProperty.length - 1) {    
-        radio.src = radioProperty[index_atual + 1].src;  
-    } else {    
-    // quando for o ultimo index, a gente volta para o inicio da lista    
-    radio.src = radioProperty[0].src;  
-    }  
-    // depois de alterar o src eu dou play  
+    if (index_atual < radioProperty.length - 1) {
+        radio.src = radioProperty[index_atual + 1].src;
+        getInfo(index_atual + 1);
+    } else {
+        // quando for o ultimo index, a gente volta para o inicio da lista    
+        radio.src = radioProperty[0].src;
+        getInfo(0);
+    }
+    // depois de alterar o src. Play!  
     radio.play();
 
 
