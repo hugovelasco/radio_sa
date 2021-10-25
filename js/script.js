@@ -237,7 +237,7 @@ function skip_previous() {
         }
     }
 
-    if ((index_atual < radioProperty.length - 1) && (index_atual > 0)) {
+    if (index_atual != 0) {
 
             radio.src = radioProperty[index_atual - 1].src;
             getInfo(index_atual - 1);
